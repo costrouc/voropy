@@ -1,0 +1,17 @@
+src/voro++
+src/libvoro++.a
+*.o
+*.so
+*.pyc
+voropy/_voro.cpp
+.ipynb_checkpoints
+*.egg-info
+*-testing.*
+MANIFEST
+/dist
+/notebooks
+/build
+__pycache__
+/docs/.build
+/docs/.templates
+/docs/.static
