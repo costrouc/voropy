@@ -82,7 +82,8 @@ setup(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: BSD License",
     ],
-    packages=find_packages(),
+    tests_require=['pytest'],
+    packages=find_packages(exclude=['tests']),
     ext_modules = ext,
     cmdclass=cmdclass,
 )
